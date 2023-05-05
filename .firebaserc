@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "bomelac2023"
+  },
+  "targets": {
+    "bomelac2023": {
+      "hosting": {
+        "bomelac": [
+          "bomelac"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
