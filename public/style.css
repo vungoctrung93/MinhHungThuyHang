@@ -188,7 +188,9 @@ body {
   color: var(--color-1);
   font-feature-settings: "c2sc", "smcp";
   max-width: 100%;
+  text-align: center;
 }
+
 
 .ampersand {
   font-weight: 350;
@@ -199,6 +201,10 @@ body {
   color: var(--color-1);
   font-feature-settings: "c2sc", "smcp";
   max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .event-time {
@@ -298,6 +304,11 @@ body {
   -webkit-text-fill-color: transparent;
   max-width: calc(100vw - 300px);
   margin-inline: auto;
+}
+p {
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .lower-event-info {
@@ -637,6 +648,20 @@ input:-internal-autofill-selected {
   grid-template-columns: 50% 50%;
 }
 
+.form-submit {
+  cursor: pointer;
+}
+#thanks {
+  display: none;
+  height: 500px;
+}
+#thanks * {
+  transform: translateY(70px)
+}
+#response {
+  /* display: none; */
+}
+
 @media only screen and (max-width: 672px) {
   .t14-container {
     min-height: auto;
@@ -798,6 +823,7 @@ input:-internal-autofill-selected {
     font-size: 2rem;
     max-width: 100%;
   }
+
 
   .name-box {
     gap: 0;
@@ -997,6 +1023,7 @@ input:-internal-autofill-selected {
 
   .parent-box {
     max-width: 100%;
+    gap: 0.75em;
   }
 
   .wrapper-donate {
